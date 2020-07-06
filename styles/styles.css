@@ -22,7 +22,13 @@
 .welcome>* {
     z-index: 100;
 }
-#btn-hire {
+
+#slogan {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.btn-hire {
     background-color: #343A40;
     border: none;
 }
@@ -33,12 +39,20 @@
     text-align: center;
 }
 
-#services {
-    height: 82vh;
-}
 
+.checked {
+    color: orange;
+}
 footer {
     text-align: center;
     color: white;
     background-color: #343A40;
+    left: 0;
+    bottom: 0;
+}
+
+@media (min-width: 992px) {
+    #services {
+        height: 85vh;
+    }
 }
